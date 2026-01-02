@@ -21,6 +21,9 @@ deployed on Google Cloud Run.
 - Google Cloud Run
 
 ## Environment Variables
+⚠️ Note: Environment variables are required to run this project.
+Secrets are managed securely via Cloud Run configuration.
+
 ```env
 PORT=8080
 BUCKET_NAME=your-gcs-bucket-name
